@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(
+    to right,
+    #eed3ff,
+    #84f0ff
+  ); /* dégradé de gauche à droite */
+  font-family:
+    Arial Rounded MT Bold,
+    sans-serif;
+  font-size: 25px;
+  color: #37474f;
+  padding: 20px;
+  border: 15px solid #3f51b5; /* épaisseur et couleur de la bordure */
+  margin: 30px; /* espace entre la bordure et la fenêtre */
+  border-radius: 30px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1); /* effet d'une ombre */
+}
+
+h1 {
+  font-size: 70px;
+  color: #3f51b5; /* couelur de la police d'écriture */
+  text-shadow: 2px 2px #b0bec5; /* pour mettre un effet de 3d */
+  background-color: #a47cc3;
+  font-family: Stencil, sans-serif;
+  padding: 10px; /* met un espace de 10 tout autour du texte */
+  border-radius: 10px; /* arrondie les angles */
+  margin: 30px auto; /* laisse un espace de 30px au dessus du titre, et le centre */
+  width: fit-content; /* pour racourcir les bords de la bande au juste necesaire */
+}
+h2 {
+  font-size: 40px;
+  color: #ff6f61;
+  text-align: center;
+  margin-top: 30px; /* marge de hauteur du dessus */
+  margin-bottom: 10px; /* marge de dessous */
+}
+
+a:link,
+a:visited {
+  color: #0288d1;
+  text-decoration: none; /* pour ne pas qu'il soit souligner par défault */
+}
+a:hover {
+  text-decoration: underline; /* Ici on le souligne quand la souris passe dessus */
+}
+ul,
+ol {
+  /* consignes pour le texte ul et ol */
+  font-size: 30px;
+  line-height: 1.6;
+  max-width: 800px; /* Il limite la longueur du texte a 800px pour ne pas que ca fasse une trop grande ligne */
+  margin: auto;
+}
+.different-style {
+  /* pas forcément pour un titre, mais ici pour la signature de fin */
+  background-color: #d8bfd8; /* Couleur de fond différente */
+  border: 2px solid #000000; /* Bordure autour du fond gris */
+  font-size: 25px;
+  color: purple;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 30px auto;
+  width: fit-content;
+}
+.encadrement {
+  border: 2px solid #333;
+  border-radius: 30px;
+  padding: 20px;
+}
+img {
+  width: 65%; /* pour les images normal */
+  height: auto;
+  border-radius: 30px; /* pour faire des bords arrondies */
+}
+.img_small {
+  width: 15%; /* pour les petites images */
+  height: auto; /* conserve les proportions */
+}
+.img_medium {
+  width: 35%; /* pour les petites images */
+  height: auto; /* conserve les proportions */
+}
+.img_big {
+  width: 70%; /* pour les petites images */
+  height: auto; /* conserve les proportions */
+}
+.image_centree {
+  /* Pour centrer les images */
+  display: flex;
+  justify-content: center;
+}
+
